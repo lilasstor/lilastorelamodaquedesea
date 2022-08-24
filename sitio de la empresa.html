@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CONTACTO LILA´S</title>12
+		<link href="stiloform.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+	<header>
+			<h1>LILA´S STORE</h1>
+			<img src="logo de la empresa.png" width="90" height="70" alt="LILA´S STORE"/>
+			<marquee behavior="alternate">LILA´S STORE</marquee>
+	</header>
+	<nav class="menu">
+		<ul>
+			<li><a href="index">Inicio</a></li>
+			<li><a href="niño.html">Niño</a></li>
+			<li><a href="mujer.html">Mujer</a></li>
+			<li><a href="hombre.html">Hombre</a></li>
+			<li><a href="">contacto</a></li>
+		</ul>
+	</nav>
+	<div id="contactform">
+			<h1 aling="center">Datos del usuario</h1>
+			<form action="enviar.php" method= "post">
+			<label for="nombre">Nombre completo:</label>
+			<input type="text" name="nombre" placeholder="nombre completo" requiered autofocus/>
+			<label for="email"><br>Correo Electronico: </label>
+			<input type="email" name="email" placeholder="nombre@email.com" requiered/>
+			<label for="asunto">Observaciones:<br></label>
+			<extarea id="asunto" name="asunto" placeholder="deja tus comentarios" requiered></extarea>
+			<button class="submit" type="submit">Enviar Datos</button>
+		</form>
+	</div>
+</body>
+</html>
